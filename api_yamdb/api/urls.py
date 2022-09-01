@@ -1,5 +1,5 @@
+from api.views import GetAuthTokenView, SignupView
 from django.urls import path
-from api.views import SignupView, GetAuthTokenView
 
 app_name = 'api'
 
