@@ -29,15 +29,18 @@ jobs:
         # установка зависимостей
         cd api_yamdb/
         pip install -r requirements.txt
+        ls
         
 
     - name: Test with flake8
       run: |
         # запуск проверки проекта по flake8
+        ls
         python -m flake8
 
     - name: Test with pytest
       run: |
+        ls
         python -m pytest
 
   build_and_push_to_docker_hub:
