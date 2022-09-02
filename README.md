@@ -1,1 +1,1 @@
-![yamdb_workflow](https://github.com/tonik350/yamdb_final/workflows/yamdb_workflow/badge.svg)
+[![yamdb_workflow](https://github.com/tonik350/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/tonik350/yamdb_final/actions/workflows/yamdb_workflow.yml)
