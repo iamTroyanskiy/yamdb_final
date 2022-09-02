@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: ../api_yamdb/
+    image: tonik350/yamdb-api:latest
     restart: always
     volumes:
       - static_value:/app/static/
