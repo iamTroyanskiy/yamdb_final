@@ -33,8 +33,7 @@ jobs:
     - name: Test with flake8
       run: |
         # запуск проверки проекта по flake8
-        cd ..
-        flake8
+        python -m flake8
 
     - name: Test with pytest
       run: |
